@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="roman.com.israeltour.mainactivity.fragments.HelloFragment">
+
+    <TextView
+        android:layout_marginTop="@dimen/single_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="@dimen/header_text_size"/>
+    <ImageView
+        android:layout_marginTop="@dimen/single_margin"
+        android:layout_width="@dimen/fragment_imageview_size"
+        android:layout_height="@dimen/fragment_imageview_size"
+        android:src="@drawable/ic_emblem_of_jerusalem"
+        android:layout_gravity="center"/>
+</LinearLayout>
