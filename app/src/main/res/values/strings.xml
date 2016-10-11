@@ -4,13 +4,36 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
     <string name="drawer_header">Israel Tour</string>
     <string name="history_menu_item">History</string>
     <string name="people_menu_item">People</string>
     <string name="places_menu_item">Places</string>
     <string name="foods_menu_item">Foods</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Welcome to Israel Tour \n Choose a list from the drawer</string>
+    <string name="hummus_name">Hummus</string>
+    <string name="hummus_description">a Levantine and Egyptian food dip or spread made from cooked, mashed chickpeas or other beans</string>
+    <string name="bulgur_name">Bulgur</string>
+    <string name="bulgur_description">"a cereal food made from the groats of several different wheat species"</string>
+    <string name="falafel_name">"Falafel "</string>
+    <string name="falafel_description">a deep-fried ball or patty made from ground chickpeas, fava beans, or both</string>
+    <string name="independence_name">Independence</string>
+    <string name="independence_description">Israeli Declaration of Independence: the Jewish leadership in Tel-Aviv declared the establishment of a Jewish state in Eretz Israel to be known as the State of Israel</string>
+    <string name="six_day_war_name">Six Day War</string>
+    <string name="six_day_war_description">as fought between Israel and all of its neighboring countries: Egypt, Jordan, Syria and Lebanon, which were aided by other Arab countries</string>
+    <string name="yom_kipur_war_name">Yom Kipur War</string>
+    <string name="yom_kipur_war_description">began with a surprise joint attack on two fronts by the armies of Syria (in the Golan Heights) and Egypt (in the Suez Canal)</string>
+    <string name="adi_shamir_name">Adi Shamir</string>
+    <string name="adi_shamir_description">an Israeli cryptographer. He is a co-inventor of the RSA algorithm (along with Ron Rivest and Len Adlema0n)</string>
+    <string name="dov_moran_name">Dov Moran</string>
+    <string name="dov_moran_description">an Israeli entrepreneur, inventor, and investor, best known as the inventor of the USB memory stick.</string>
+    <string name="benjamin_netanyahu_name">"Benjamin Netanyahu "</string>
+    <string name="benjamin_netanyahu_description">The prime minister of Israel</string>
+    <string name="bahai_gardens_name">Bahai Gardens</string>
+    <string name="bahai_gardens_description">The Terraces of the Bahá\'í Faith, also known as the Hanging Gardens of Haifa, are garden terraces around the Shrine of the Báb on Mount Carmel in Haifa, Israel.</string>
+    <string name="church_of_holy_name">Church of Holy Scripture</string>
+    <string name="church_of_holy_description">The Church of the Holy Sepulchre is a church within the Christian Quarter of the Old City of Jerusalem.</string>
+    <string name="dome_of_the_rock_name">Dome of the Rock</string>
+    <string name="dome_of_the_rock_description">The Dome of the Rock ) is a shrine located on the Temple Mount in the Old City of Jerusalem</string>
+
 </resources>

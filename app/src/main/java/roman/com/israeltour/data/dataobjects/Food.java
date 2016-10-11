@@ -4,32 +4,30 @@ package roman.com.israeltour.data.dataobjects;
  * The class is a dataobject that holds a food
  */
 public class Food {
-    private String mName;
-    private String mDescription;
+    private int mNameId;
+    private int mDescription;
 
     /**
      *  main and only constructor
-     * @param name name of the food
-     * @param description short description of what the food is about
      */
-    public Food(String name, String description) {
-        mName = name;
-        mDescription = description;
+    public Food(int nameId, int descriptionId) {
+        mNameId = nameId;
+        mDescription = descriptionId;
     }
 
-    public String getName() {
-        return mName;
+    public int getNameId() {
+        return mNameId;
     }
 
-    public void setName(String name) {
-        mName = name;
+    public void setNameId(int nameId) {
+        mNameId = nameId;
     }
 
-    public String getDescription() {
+    public int getDescriptionId() {
         return mDescription;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(int description) {
         mDescription = description;
     }
 

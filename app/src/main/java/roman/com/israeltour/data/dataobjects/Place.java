@@ -7,8 +7,8 @@ import com.apkfuns.logutils.LogUtils;
  */
 public class Place {
     private int mImageId;
-    private String mName;
-    private String mDescription;
+    private int mNameId;
+    private int mDescriptionId;
 
 
     /**
@@ -17,10 +17,10 @@ public class Place {
      * @param name name of the place
      * @param description short description of what the place is about
      */
-    public Place(String name, String description,int imageId) {
+    public Place(int name, int description,int imageId) {
         mImageId = imageId;
-        mName = name;
-        mDescription = description;
+        mNameId = name;
+        mDescriptionId = description;
     }
 
     /**
@@ -39,20 +39,20 @@ public class Place {
         mImageId = imageId;
     }
 
-    public String getName() {
-        return mName;
+    public int getName() {
+        return mNameId;
     }
 
-    public void setName(String name) {
-        mName = name;
+    public void setName(int name) {
+        mNameId = name;
     }
 
-    public String getDescription() {
-        return mDescription;
+    public int getDescription() {
+        return mDescriptionId;
     }
 
-    public void setDescription(String description) {
-        mDescription = description;
+    public void setDescription(int description) {
+        mDescriptionId = description;
     }
 
 

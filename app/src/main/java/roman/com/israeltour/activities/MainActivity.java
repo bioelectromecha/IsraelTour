@@ -1,4 +1,4 @@
-package roman.com.israeltour.mainactivity;
+package roman.com.israeltour.activities;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
@@ -12,11 +12,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import roman.com.israeltour.R;
-import roman.com.israeltour.mainactivity.fragments.FoodFragment;
-import roman.com.israeltour.mainactivity.fragments.HelloFragment;
-import roman.com.israeltour.mainactivity.fragments.HistoryFragment;
-import roman.com.israeltour.mainactivity.fragments.PersonsFragment;
-import roman.com.israeltour.mainactivity.fragments.PlacesFragment;
+import roman.com.israeltour.fragments.FoodFragment;
+import roman.com.israeltour.fragments.HelloFragment;
+import roman.com.israeltour.fragments.HistoryFragment;
+import roman.com.israeltour.fragments.PersonsFragment;
+import roman.com.israeltour.fragments.PlacesFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

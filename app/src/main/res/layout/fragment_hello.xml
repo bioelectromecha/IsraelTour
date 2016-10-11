@@ -3,7 +3,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context="roman.com.israeltour.mainactivity.fragments.HelloFragment">
+              tools:context=".fragments.HelloFragment">
 
     <TextView
         android:layout_marginTop="@dimen/single_margin"

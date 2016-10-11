@@ -10,6 +10,6 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context="roman.com.israeltour.mainactivity.fragments.HistoryFragment"
+    tools:context=".fragments.HistoryFragment"
     tools:listitem="@layout/history_fragment_list_item"
     />

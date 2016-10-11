@@ -1,4 +1,4 @@
-package roman.com.israeltour.mainactivity.fragments;
+package roman.com.israeltour.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

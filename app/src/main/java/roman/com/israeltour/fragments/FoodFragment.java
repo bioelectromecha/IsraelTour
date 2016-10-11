@@ -1,4 +1,4 @@
-package roman.com.israeltour.mainactivity.fragments;
+package roman.com.israeltour.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,14 +9,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import roman.com.israeltour.R;
-import roman.com.israeltour.data.DataLoader;
-import roman.com.israeltour.mainactivity.recycleradapters.HistoryRecyclerViewAdapter;
+import roman.com.israeltour.data.datasources.DataLoader;
+import roman.com.israeltour.recycleradapters.FoodRecyclerViewAdapter;
 
 /**
  * A fragment representing a list of Items.
  * <p/>
  */
-public class HistoryFragment extends android.app.Fragment {
+public class FoodFragment extends android.app.Fragment {
 
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
@@ -27,7 +27,7 @@ public class HistoryFragment extends android.app.Fragment {
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
-    public HistoryFragment() {
+    public FoodFragment() {
     }
 
     // TODO: Customize parameter initialization
@@ -52,7 +52,7 @@ public class HistoryFragment extends android.app.Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.history_fragment_list, container, false);
+        View view = inflater.inflate(R.layout.food_fragment_list, container, false);
 
         // Set the adapter
         if (view instanceof RecyclerView) {
@@ -64,7 +64,7 @@ public class HistoryFragment extends android.app.Fragment {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
 
-            recyclerView.setAdapter(new HistoryRecyclerViewAdapter(DataLoader.getHistoryList()));
+            recyclerView.setAdapter(new FoodRecyclerViewAdapter(DataLoader.getFoodList()));
         }
         return view;
     }

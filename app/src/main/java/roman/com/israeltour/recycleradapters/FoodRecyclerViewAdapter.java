@@ -1,4 +1,4 @@
-package roman.com.israeltour.mainactivity.recycleradapters;
+package roman.com.israeltour.recycleradapters;
 
 /**
  * Created by roman on 10/10/16.
@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import roman.com.israeltour.MyApplication;
 import roman.com.israeltour.R;
 import roman.com.israeltour.data.dataobjects.Food;
 
@@ -33,8 +34,8 @@ public class FoodRecyclerViewAdapter extends RecyclerView.Adapter<FoodRecyclerVi
     @Override
     public void onBindViewHolder(final FoodViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.mNameTextView.setText(mValues.get(position).getName());
-        holder.mDescriptionTextView.setText(mValues.get(position).getDescription());
+        holder.mNameTextView.setText(MyApplication.getContext().getResources().getString(mValues.get(position).getNameId()));
+        holder.mDescriptionTextView.setText(MyApplication.getContext().getResources().getString(mValues.get(position).getDescriptionId()));
     }
 
     @Override

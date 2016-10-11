@@ -1,4 +1,4 @@
-package roman.com.israeltour.mainactivity.recycleradapters;
+package roman.com.israeltour.recycleradapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -32,8 +32,8 @@ public class PlacesRecyclerViewAdapter extends RecyclerView.Adapter<PlacesRecycl
     public void onBindViewHolder(final PlacesViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
         holder.mImageView.setImageDrawable(MyApplication.getContext().getDrawable(mValues.get(position).getImageId()));
-        holder.mNameTextView.setText(mValues.get(position).getName());
-        holder.mDescriptionTextView.setText(mValues.get(position).getDescription());
+        holder.mNameTextView.setText(MyApplication.getContext().getResources().getString(mValues.get(position).getName()));
+        holder.mDescriptionTextView.setText(MyApplication.getContext().getResources().getString(mValues.get(position).getDescription()));
     }
 
     @Override

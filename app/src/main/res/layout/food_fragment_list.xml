@@ -10,5 +10,5 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context="roman.com.israeltour.mainactivity.fragments.FoodFragment"
+    tools:context=".fragments.FoodFragment"
     tools:listitem="@layout/food_fragment_list_item"/>

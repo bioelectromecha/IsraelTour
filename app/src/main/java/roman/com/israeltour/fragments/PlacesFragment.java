@@ -1,4 +1,4 @@
-package roman.com.israeltour.mainactivity.fragments;
+package roman.com.israeltour.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import roman.com.israeltour.R;
-import roman.com.israeltour.data.DataLoader;
-import roman.com.israeltour.mainactivity.recycleradapters.PlacesRecyclerViewAdapter;
+import roman.com.israeltour.data.datasources.DataLoader;
+import roman.com.israeltour.recycleradapters.PlacesRecyclerViewAdapter;
 
 /**
  * A fragment representing a list of Items.

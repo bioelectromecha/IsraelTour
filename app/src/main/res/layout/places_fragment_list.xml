@@ -10,5 +10,5 @@
     android:layout_marginLeft="@dimen/single_margin"
     android:layout_marginRight="@dimen/single_margin"
     app:layoutManager="LinearLayoutManager"
-    tools:context="roman.com.israeltour.mainactivity.fragments.PlacesFragment"
+    tools:context=".fragments.PlacesFragment"
     tools:listitem="@layout/places_fragment_list_item"/>

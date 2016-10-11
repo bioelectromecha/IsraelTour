@@ -1,4 +1,4 @@
-package roman.com.israeltour.data;
+package roman.com.israeltour.data.datasources;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import roman.com.israeltour.data.dataobjects.Person;
 import roman.com.israeltour.data.dataobjects.Place;
 
 
-public class DataLoader {
+public final class DataLoader {
 
     /**
      * load the places data into a list
@@ -31,7 +31,7 @@ public class DataLoader {
     public static List<Person> getPersonList() {
         List<Person> personList = new ArrayList<>();
         for (PersonData personData : PersonData.values()) {
-            Person personObject = new Person(personData.getName(), personData.getDescription());
+            Person personObject = new Person(personData.getNameId(), personData.getDescriptionId());
             personList.add(personObject);
         }
         return personList;
@@ -44,7 +44,7 @@ public class DataLoader {
     public static List<History> getHistoryList() {
         List<History> personList = new ArrayList<>();
         for (HistoryData historyData : HistoryData.values()) {
-            History historyObj = new History(historyData.getName(), historyData.getDescription());
+            History historyObj = new History(historyData.getNameId(), historyData.getDescriptionId());
             personList.add(historyObj);
         }
         return personList;
@@ -57,7 +57,7 @@ public class DataLoader {
     public static List<Food> getFoodList() {
         List<Food> foodList = new ArrayList<>();
         for (FoodData foodData : FoodData.values()) {
-            Food foodObj = new Food(foodData.getName(), foodData.getDescription());
+            Food foodObj = new Food(foodData.getNameId(), foodData.getDescriptionId());
             foodList.add(foodObj);
         }
         return foodList;
